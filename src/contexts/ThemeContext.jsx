@@ -14,4 +14,8 @@ export const GlobalStyles = createGlobalStyle`
 	body {
 		background-color: ${(props) => props.theme.body};
 	}
+  
+  .github-icon {
+    color: ${(props) => props.theme.fontColor};
+  }
 `;
